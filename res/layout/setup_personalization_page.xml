@@ -93,7 +93,7 @@
                     <View style="@style/SetupWizardDivider"/>
                 </LinearLayout>
 
-                <LinearLayout
+                <!--<LinearLayout
                         android:id="@+id/nav_buttons"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                     </LinearLayout>
 
                     <View style="@style/SetupWizardDivider"/>
-                </LinearLayout>
+                </LinearLayout>-->
 
 
                 <LinearLayout

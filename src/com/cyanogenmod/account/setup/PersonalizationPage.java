@@ -190,9 +190,9 @@ public class PersonalizationPage extends Page {
         }
     }*/
 
-    protected static boolean hideKeyDisabler() {
+    /*protected static boolean hideKeyDisabler() {
         return !KeyDisabler.isSupported();
-    }
+    }*/
 
     protected static boolean hideWhisperPush(Context context) {
         final int playServicesAvailable = GooglePlayServicesUtil.isGooglePlayServicesAvailable(context);
@@ -206,6 +206,6 @@ public class PersonalizationPage extends Page {
     }
 
     public static boolean skipPage(Context context) {
-        return hideWhisperPush(context) && hideThemeSwitch(context) && hideKeyDisabler();
+        return hideWhisperPush(context) && hideThemeSwitch(context) /*&& hideKeyDisabler()*/;
     }
 }
