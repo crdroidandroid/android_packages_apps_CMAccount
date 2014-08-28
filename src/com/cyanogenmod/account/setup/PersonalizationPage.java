@@ -170,13 +170,6 @@ public class PersonalizationPage extends Page {
         protected int getTitleResource() {
             return R.string.setup_personalization;
         }
-
-        @Override
-        public void onDetach() {
-            super.onDetach();
-            mHandler.removeCallbacks(mDisableNavKeysRunnable);
-            mHandler.removeCallbacks(mEnableNavKeysRunnable);
-        }
     }
 
     /*private static void writeDisableNavkeysOption(Context context, boolean enabled) {
